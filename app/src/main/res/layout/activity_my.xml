@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/fondo_notificacion">
+
+    <Button
+        android:id="@+id/btnAgregarTarea"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Tarea"
+        android:background="#49637e" />
+
+    <ListView
+        android:id="@+id/listViewTareas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="2dp" >
+    </ListView>
+
+</LinearLayout>
