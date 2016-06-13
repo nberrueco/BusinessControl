@@ -66,7 +66,7 @@ public class administrador extends AppCompatActivity {
                 startActivity(navegar);
             }
         });
-        //
+        //wrk
         btnRegistro = (Button) findViewById(R.id.btnRegistro);
         btnRegistro.setOnClickListener(new View.OnClickListener() {
             @Override
