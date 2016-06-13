@@ -56,7 +56,7 @@ public class administrador extends AppCompatActivity {
                 startActivity(navegar);
             }
         });
-        //
+        //work
         btnMensajeria = (Button) findViewById(R.id.btnMensajeria);
         btnMensajeria.setOnClickListener(new View.OnClickListener() {
             @Override
