@@ -12,7 +12,7 @@ import com.svalero.pc.loginbusiness.datos.RunningData;
 
 public class administrador extends AppCompatActivity {
 
-    //Creamos boton
+    //Declaramos Buttons
     private Button btnGeolocalizar;
     private Button btnEnviarGastos;
     private Button btnAverias;
