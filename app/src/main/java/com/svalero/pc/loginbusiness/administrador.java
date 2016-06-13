@@ -32,6 +32,7 @@ public class administrador extends AppCompatActivity {
                 //para navegar entre pantallas INTENT
                 Intent navegar = new Intent(getBaseContext(),GastosadminActivity.class);
                 startActivity(navegar);
+
             }
         });
         //
@@ -39,6 +40,7 @@ public class administrador extends AppCompatActivity {
         btnAverias.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //work
                 RunningData.setEstado(btnAverias.getText().toString());
                 Intent navegar = new Intent(getBaseContext(),AveriasAdminActivity.class);
                 startActivity(navegar);
